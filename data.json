@@ -1,0 +1,726 @@
+[
+  {
+    "food_name": "Apple",
+    "nutrition": "Calories: 52, Carbs: 14g, Fiber: 2.4g, Vitamin C: 14%"
+  },
+  {
+    "food_name": "Banana",
+    "nutrition": "Calories: 89, Carbs: 23g, Fiber: 2.6g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Orange",
+    "nutrition": "Calories: 62, Carbs: 15g, Fiber: 3.1g, Vitamin C: 116%"
+  },
+  {
+    "food_name": "Strawberry",
+    "nutrition": "Calories: 32, Carbs: 7.7g, Fiber: 2g, Vitamin C: 97%"
+  },
+  {
+    "food_name": "Blueberry",
+    "nutrition": "Calories: 57, Carbs: 14g, Fiber: 2.4g, Vitamin C: 16%"
+  },
+  {
+    "food_name": "Grapes",
+    "nutrition": "Calories: 69, Carbs: 18g, Fiber: 0.9g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Watermelon",
+    "nutrition": "Calories: 30, Carbs: 8g, Fiber: 0.4g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Pineapple",
+    "nutrition": "Calories: 50, Carbs: 13g, Fiber: 1.4g, Vitamin C: 79%"
+  },
+  {
+    "food_name": "Mango",
+    "nutrition": "Calories: 60, Carbs: 15g, Fiber: 1.6g, Vitamin C: 60%"
+  },
+  {
+    "food_name": "Peach",
+    "nutrition": "Calories: 39, Carbs: 10g, Fiber: 1.5g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Plum",
+    "nutrition": "Calories: 46, Carbs: 11g, Fiber: 1.4g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Kiwi",
+    "nutrition": "Calories: 42, Carbs: 10g, Fiber: 2.1g, Vitamin C: 71%"
+  },
+  {
+    "food_name": "Pear",
+    "nutrition": "Calories: 57, Carbs: 15g, Fiber: 3.1g, Vitamin C: 7%"
+  },
+  {
+    "food_name": "Cherry",
+    "nutrition": "Calories: 50, Carbs: 12g, Fiber: 1.6g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Pomegranate",
+    "nutrition": "Calories: 83, Carbs: 19g, Fiber: 4g, Vitamin C: 17%"
+  },
+  {
+    "food_name": "Coconut",
+    "nutrition": "Calories: 354, Carbs: 15g, Fiber: 9g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Papaya",
+    "nutrition": "Calories: 43, Carbs: 11g, Fiber: 1.7g, Vitamin C: 157%"
+  },
+  {
+    "food_name": "Fig",
+    "nutrition": "Calories: 74, Carbs: 19g, Fiber: 3g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Lychee",
+    "nutrition": "Calories: 66, Carbs: 17g, Fiber: 1.3g, Vitamin C: 119%"
+  },
+  {
+    "food_name": "Dragon Fruit",
+    "nutrition": "Calories: 50, Carbs: 13g, Fiber: 3g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Avocado",
+    "nutrition": "Calories: 160, Carbs: 9g, Fiber: 7g, Vitamin C: 16%"
+  },
+  {
+    "food_name": "Blackberry",
+    "nutrition": "Calories: 43, Carbs: 10g, Fiber: 5.3g, Vitamin C: 35%"
+  },
+  {
+    "food_name": "Raspberry",
+    "nutrition": "Calories: 52, Carbs: 12g, Fiber: 6.5g, Vitamin C: 36%"
+  },
+  {
+    "food_name": "Cranberry",
+    "nutrition": "Calories: 46, Carbs: 12g, Fiber: 4.6g, Vitamin C: 22%"
+  },
+  {
+    "food_name": "Guava",
+    "nutrition": "Calories: 68, Carbs: 14g, Fiber: 5.4g, Vitamin C: 228%"
+  },
+  {
+    "food_name": "Jackfruit",
+    "nutrition": "Calories: 95, Carbs: 23g, Fiber: 1.5g, Vitamin C: 18%"
+  },
+  {
+    "food_name": "Durian",
+    "nutrition": "Calories: 147, Carbs: 27g, Fiber: 3.8g, Vitamin C: 33%"
+  },
+  {
+    "food_name": "Cantaloupe",
+    "nutrition": "Calories: 34, Carbs: 8g, Fiber: 0.9g, Vitamin C: 61%"
+  },
+  {
+    "food_name": "Honeydew",
+    "nutrition": "Calories: 36, Carbs: 9g, Fiber: 0.8g, Vitamin C: 30%"
+  },
+  {
+    "food_name": "Passion Fruit",
+    "nutrition": "Calories: 97, Carbs: 23g, Fiber: 10g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "Starfruit",
+    "nutrition": "Calories: 31, Carbs: 7g, Fiber: 2.8g, Vitamin C: 57%"
+  },
+  {
+    "food_name": "Apricot",
+    "nutrition": "Calories: 48, Carbs: 11g, Fiber: 2g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Grapefruit",
+    "nutrition": "Calories: 42, Carbs: 11g, Fiber: 1.6g, Vitamin C: 52%"
+  },
+  {
+    "food_name": "Nectarine",
+    "nutrition": "Calories: 44, Carbs: 11g, Fiber: 1.7g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Tangerine",
+    "nutrition": "Calories: 53, Carbs: 13g, Fiber: 1.8g, Vitamin C: 44%"
+  },
+  {
+    "food_name": "Cucumber",
+    "nutrition": "Calories: 16, Carbs: 3.6g, Fiber: 0.5g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Tomato",
+    "nutrition": "Calories: 18, Carbs: 3.9g, Fiber: 1.2g, Vitamin C: 21%"
+  },
+  {
+    "food_name": "Bell Pepper",
+    "nutrition": "Calories: 31, Carbs: 6g, Fiber: 2.1g, Vitamin C: 213%"
+  },
+  {
+    "food_name": "Carrot",
+    "nutrition": "Calories: 41, Carbs: 10g, Fiber: 2.8g, Vitamin C: 9%"
+  },
+  {
+    "food_name": "Broccoli",
+    "nutrition": "Calories: 34, Carbs: 7g, Fiber: 2.6g, Vitamin C: 89%"
+  },
+  {
+    "food_name": "Cauliflower",
+    "nutrition": "Calories: 25, Carbs: 5g, Fiber: 2g, Vitamin C: 77%"
+  },
+  {
+    "food_name": "Spinach",
+    "nutrition": "Calories: 23, Carbs: 3.6g, Fiber: 2.2g, Vitamin C: 47%"
+  },
+  {
+    "food_name": "Kale",
+    "nutrition": "Calories: 35, Carbs: 7g, Fiber: 2.6g, Vitamin C: 200%"
+  },
+  {
+    "food_name": "Lettuce",
+    "nutrition": "Calories: 15, Carbs: 2.9g, Fiber: 1.3g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Zucchini",
+    "nutrition": "Calories: 17, Carbs: 3.1g, Fiber: 1g, Vitamin C: 29%"
+  },
+  {
+    "food_name": "Eggplant",
+    "nutrition": "Calories: 25, Carbs: 5.9g, Fiber: 3g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Mushroom",
+    "nutrition": "Calories: 22, Carbs: 3.3g, Fiber: 1g, Vitamin C: 2%"
+  },
+  {
+    "food_name": "Onion",
+    "nutrition": "Calories: 40, Carbs: 9g, Fiber: 1.7g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Garlic",
+    "nutrition": "Calories: 149, Carbs: 33g, Fiber: 2.1g, Vitamin C: 52%"
+  },
+  {
+    "food_name": "Beetroot",
+    "nutrition": "Calories: 43, Carbs: 10g, Fiber: 2.8g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Potato",
+    "nutrition": "Calories: 77, Carbs: 17g, Fiber: 2.2g, Vitamin C: 32%"
+  },
+  {
+    "food_name": "Sweet Potato",
+    "nutrition": "Calories: 86, Carbs: 20g, Fiber: 3g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Pumpkin",
+    "nutrition": "Calories: 26, Carbs: 7g, Fiber: 0.5g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Butternut Squash",
+    "nutrition": "Calories: 45, Carbs: 12g, Fiber: 2g, Vitamin C: 35%"
+  },
+  {
+    "food_name": "Radish",
+    "nutrition": "Calories: 16, Carbs: 3.4g, Fiber: 1.6g, Vitamin C: 24%"
+  },
+  {
+    "food_name": "Turnip",
+    "nutrition": "Calories: 28, Carbs: 6.4g, Fiber: 1.8g, Vitamin C: 35%"
+  },
+  {
+    "food_name": "Parsnip",
+    "nutrition": "Calories: 75, Carbs: 18g, Fiber: 4.9g, Vitamin C: 28%"
+  },
+  {
+    "food_name": "Celery",
+    "nutrition": "Calories: 16, Carbs: 3g, Fiber: 1.6g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Green Beans",
+    "nutrition": "Calories: 31, Carbs: 7g, Fiber: 3.4g, Vitamin C: 20%"
+  },
+  {
+    "food_name": "Peas",
+    "nutrition": "Calories: 81, Carbs: 14g, Fiber: 5g, Vitamin C: 66%"
+  },
+  {
+    "food_name": "Corn",
+    "nutrition": "Calories: 86, Carbs: 19g, Fiber: 2.7g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Bell Pepper",
+    "nutrition": "Calories: 31, Carbs: 6g, Fiber: 2.1g, Vitamin C: 213%"
+  },
+  {
+    "food_name": "Chili Pepper",
+    "nutrition": "Calories: 40, Carbs: 9g, Fiber: 1.5g, Vitamin C: 404%"
+  },
+  {
+    "food_name": "Cabbage",
+    "nutrition": "Calories: 25, Carbs: 6g, Fiber: 2.5g, Vitamin C: 54%"
+  },
+  {
+    "food_name": "Brussels Sprouts",
+    "nutrition": "Calories: 43, Carbs: 9g, Fiber: 3.8g, Vitamin C: 141%"
+  },
+  {
+    "food_name": "Asparagus",
+    "nutrition": "Calories: 20, Carbs: 3.9g, Fiber: 2.1g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Artichoke",
+    "nutrition": "Calories: 47, Carbs: 11g, Fiber: 5.4g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Leek",
+    "nutrition": "Calories: 61, Carbs: 14g, Fiber: 1.8g, Vitamin C: 16%"
+  },
+  {
+    "food_name": "Okra",
+    "nutrition": "Calories: 33, Carbs: 7g, Fiber: 3.2g, Vitamin C: 38%"
+  },
+  {
+    "food_name": "Kohlrabi",
+    "nutrition": "Calories: 27, Carbs: 6.2g, Fiber: 3.6g, Vitamin C: 62%"
+  },
+  {
+    "food_name": "Rutabaga",
+    "nutrition": "Calories: 37, Carbs: 8.6g, Fiber: 2.3g, Vitamin C: 48%"
+  },
+  {
+    "food_name": "Bok Choy",
+    "nutrition": "Calories: 13, Carbs: 2.2g, Fiber: 1g, Vitamin C: 75%"
+  },
+  {
+    "food_name": "Swiss Chard",
+    "nutrition": "Calories: 19, Carbs: 3.7g, Fiber: 1.6g, Vitamin C: 33%"
+  },
+  {
+    "food_name": "Collard Greens",
+    "nutrition": "Calories: 32, Carbs: 7.6g, Fiber: 4g, Vitamin C: 58%"
+  },
+  {
+    "food_name": "Mustard Greens",
+    "nutrition": "Calories: 27, Carbs: 4.7g, Fiber: 3.2g, Vitamin C: 217%"
+  },
+  {
+    "food_name": "Watercress",
+    "nutrition": "Calories: 11, Carbs: 1.3g, Fiber: 0.5g, Vitamin C: 24%"
+  },
+  {
+    "food_name": "Endive",
+    "nutrition": "Calories: 17, Carbs: 3.4g, Fiber: 3.1g, Vitamin C: 14%"
+  },
+  {
+    "food_name": "Arugula",
+    "nutrition": "Calories: 25, Carbs: 3.7g, Fiber: 1.6g, Vitamin C: 25%"
+  },
+  {
+    "food_name": "Radicchio",
+    "nutrition": "Calories: 23, Carbs: 4.5g, Fiber: 0.9g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Romaine Lettuce",
+    "nutrition": "Calories: 17, Carbs: 3.3g, Fiber: 2.1g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Mizuna",
+    "nutrition": "Calories: 21, Carbs: 3.1g, Fiber: 2.1g, Vitamin C: 65%"
+  },
+  {
+    "food_name": "Moringa",
+    "nutrition": "Calories: 64, Carbs: 8.3g, Fiber: 4.3g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Amaranth Leaves",
+    "nutrition": "Calories: 23, Carbs: 4g, Fiber: 2.2g, Vitamin C: 70%"
+  },
+  {
+    "food_name": "Dandelion Greens",
+    "nutrition": "Calories: 45, Carbs: 9.2g, Fiber: 3.5g, Vitamin C: 58%"
+  },
+  {
+    "food_name": "Chicory",
+    "nutrition": "Calories: 23, Carbs: 4.7g, Fiber: 4g, Vitamin C: 6%"
+  },
+  {
+    "food_name": "Burdock Root",
+    "nutrition": "Calories: 72, Carbs: 17g, Fiber: 3.3g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Seaweed",
+    "nutrition": "Calories: 45, Carbs: 9.6g, Fiber: 0.5g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Alfalfa Sprouts",
+    "nutrition": "Calories: 23, Carbs: 2.1g, Fiber: 1.9g, Vitamin C: 14%"
+  },
+  {
+    "food_name": "Bamboo Shoots",
+    "nutrition": "Calories: 27, Carbs: 5.2g, Fiber: 2.2g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Lotus Root",
+    "nutrition": "Calories: 74, Carbs: 17g, Fiber: 4.9g, Vitamin C: 73%"
+  },
+  {
+    "food_name": "Jicama",
+    "nutrition": "Calories: 38, Carbs: 9g, Fiber: 4.9g, Vitamin C: 40%"
+  },
+  {
+    "food_name": "Horseradish",
+    "nutrition": "Calories: 48, Carbs: 11g, Fiber: 3.3g, Vitamin C: 24%"
+  },
+  {
+    "food_name": "Taro",
+    "nutrition": "Calories: 142, Carbs: 34g, Fiber: 5.1g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Yam",
+    "nutrition": "Calories: 118, Carbs: 28g, Fiber: 4.1g, Vitamin C: 27%"
+  },
+  {
+    "food_name": "Cassava",
+    "nutrition": "Calories: 160, Carbs: 38g, Fiber: 1.8g, Vitamin C: 34%"
+  },
+  {
+    "food_name": "Plantain",
+    "nutrition": "Calories: 122, Carbs: 32g, Fiber: 2.3g, Vitamin C: 22%"
+  },
+  {
+    "food_name": "Salsify",
+    "nutrition": "Calories: 82, Carbs: 19g, Fiber: 3.9g, Vitamin C: 7%"
+  },
+  {
+    "food_name": "Celeriac",
+    "nutrition": "Calories: 42, Carbs: 9g, Fiber: 1.8g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Skirret",
+    "nutrition": "Calories: 80, Carbs: 18g, Fiber: 2.7g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Turmeric Root",
+    "nutrition": "Calories: 354, Carbs: 65g, Fiber: 21g, Vitamin C: 43%"
+  },
+  {
+    "food_name": "Ginger Root",
+    "nutrition": "Calories: 80, Carbs: 18g, Fiber: 2g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Galangal Root",
+    "nutrition": "Calories: 71, Carbs: 15g, Fiber: 1.5g, Vitamin C: 1%"
+  },
+  {
+    "food_name": "Parsley Root",
+    "nutrition": "Calories: 55, Carbs: 12g, Fiber: 4g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "Jerusalem Artichoke",
+    "nutrition": "Calories: 73, Carbs: 17g, Fiber: 2.4g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Sunchoke",
+    "nutrition": "Calories: 73, Carbs: 17g, Fiber: 2.4g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Squash Blossoms",
+    "nutrition": "Calories: 12, Carbs: 2.2g, Fiber: 0.7g, Vitamin C: 22%"
+  },
+  {
+    "food_name": "Fiddleheads",
+    "nutrition": "Calories: 34, Carbs: 5.5g, Fiber: 1.8g, Vitamin C: 44%"
+  },
+  {
+    "food_name": "Cattail Shoots",
+    "nutrition": "Calories: 40, Carbs: 6.7g, Fiber: 1.3g, Vitamin C: 30%"
+  },
+  {
+    "food_name": "Chaya",
+    "nutrition": "Calories: 38, Carbs: 7g, Fiber: 3g, Vitamin C: 289%"
+  },
+  {
+    "food_name": "Malabar Spinach",
+    "nutrition": "Calories: 23, Carbs: 3.4g, Fiber: 2g, Vitamin C: 73%"
+  },
+  {
+    "food_name": "Orach",
+    "nutrition": "Calories: 29, Carbs: 6g, Fiber: 3.3g, Vitamin C: 19%"
+  },
+  {
+    "food_name": "Epazote",
+    "nutrition": "Calories: 32, Carbs: 7.2g, Fiber: 0.5g, Vitamin C: 41%"
+  },
+  {
+    "food_name": "Mizuna Greens",
+    "nutrition": "Calories: 21, Carbs: 3.1g, Fiber: 2.1g, Vitamin C: 65%"
+  },
+  {
+    "food_name": "Okinawa Spinach",
+    "nutrition": "Calories: 23, Carbs: 4g, Fiber: 2.4g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "New Zealand Spinach",
+    "nutrition": "Calories: 20, Carbs: 3.5g, Fiber: 2.1g, Vitamin C: 36%"
+  },
+  {
+    "food_name": "Orach",
+    "nutrition": "Calories: 29, Carbs: 6g, Fiber: 3.3g, Vitamin C: 19%"
+  },
+  {
+    "food_name": "Red Veined Sorrel",
+    "nutrition": "Calories: 22, Carbs: 4g, Fiber: 2.2g, Vitamin C: 47%"
+  },
+  {
+    "food_name": "Shiso",
+    "nutrition": "Calories: 37, Carbs: 8g, Fiber: 7g, Vitamin C: 43%"
+  },
+  {
+    "food_name": "Chervil",
+    "nutrition": "Calories: 43, Carbs: 7.1g, Fiber: 3.9g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "Salad Burnet",
+    "nutrition": "Calories: 17, Carbs: 3.3g, Fiber: 1.6g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Summer Savory",
+    "nutrition": "Calories: 272, Carbs: 68g, Fiber: 45g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "Winter Savory",
+    "nutrition": "Calories: 272, Carbs: 68g, Fiber: 45g, Vitamin C: 50%"
+  },
+  {
+    "food_name": "Sorrel",
+    "nutrition": "Calories: 21, Carbs: 3.2g, Fiber: 2.9g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Tatsoi",
+    "nutrition": "Calories: 28, Carbs: 5.5g, Fiber: 1.2g, Vitamin C: 140%"
+  },
+  {
+    "food_name": "Water Spinach",
+    "nutrition": "Calories: 19, Carbs: 3.1g, Fiber: 2g, Vitamin C: 55%"
+  },
+  {
+    "food_name": "Yardlong Bean",
+    "nutrition": "Calories: 47, Carbs: 9g, Fiber: 2.7g, Vitamin C: 15%"
+  },
+  {
+    "food_name": "Winged Bean",
+    "nutrition": "Calories: 49, Carbs: 8g, Fiber: 2.2g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Yacon",
+    "nutrition": "Calories: 61, Carbs: 14g, Fiber: 1.5g, Vitamin C: 7%"
+  },
+  {
+    "food_name": "Jícama",
+    "nutrition": "Calories: 38, Carbs: 9g, Fiber: 4.9g, Vitamin C: 40%"
+  },
+  {
+    "food_name": "Nopal",
+    "nutrition": "Calories: 16, Carbs: 3.3g, Fiber: 2.2g, Vitamin C: 13%"
+  },
+  {
+    "food_name": "Chayote",
+    "nutrition": "Calories: 19, Carbs: 4.5g, Fiber: 2g, Vitamin C: 7%"
+  },
+  {
+    "food_name": "Pepino",
+    "nutrition": "Calories: 15, Carbs: 3.2g, Fiber: 1.6g, Vitamin C: 20%"
+  },
+  {
+    "food_name": "Cherimoya",
+    "nutrition": "Calories: 75, Carbs: 17g, Fiber: 3g, Vitamin C: 20%"
+  },
+  {
+    "food_name": "Custard Apple",
+    "nutrition": "Calories: 94, Carbs: 23g, Fiber: 4.4g, Vitamin C: 43%"
+  },
+  {
+    "food_name": "Pawpaw",
+    "nutrition": "Calories: 80, Carbs: 19g, Fiber: 2.6g, Vitamin C: 30%"
+  },
+  {
+    "food_name": "Breadfruit",
+    "nutrition": "Calories: 103, Carbs: 27g, Fiber: 4.9g, Vitamin C: 29%"
+  },
+  {
+    "food_name": "Jackfruit",
+    "nutrition": "Calories: 95, Carbs: 24g, Fiber: 1.5g, Vitamin C: 18%"
+  },
+  {
+    "food_name": "Durian",
+    "nutrition": "Calories: 147, Carbs: 27g, Fiber: 3.8g, Vitamin C: 33%"
+  },
+  {
+    "food_name": "Rambutan",
+    "nutrition": "Calories: 68, Carbs: 16g, Fiber: 0.9g, Vitamin C: 40%"
+  },
+  {
+    "food_name": "Lychee",
+    "nutrition": "Calories: 66, Carbs: 17g, Fiber: 1.3g, Vitamin C: 72%"
+  },
+  {
+    "food_name": "Longan",
+    "nutrition": "Calories: 60, Carbs: 15g, Fiber: 1.1g, Vitamin C: 84%"
+  },
+  {
+    "food_name": "Mangosteen",
+    "nutrition": "Calories: 73, Carbs: 18g, Fiber: 1.8g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Salak",
+    "nutrition": "Calories: 82, Carbs: 21g, Fiber: 2.6g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Tamarillo",
+    "nutrition": "Calories: 31, Carbs: 5.7g, Fiber: 3.3g, Vitamin C: 29%"
+  },
+  {
+    "food_name": "Lucuma",
+    "nutrition": "Calories: 92, Carbs: 23g, Fiber: 2.3g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Camu Camu",
+    "nutrition": "Calories: 4, Carbs: 0.9g, Fiber: 0.4g, Vitamin C: 600%"
+  },
+  {
+    "food_name": "Jabuticaba",
+    "nutrition": "Calories: 45, Carbs: 10g, Fiber: 1.6g, Vitamin C: 14%"
+  },
+  {
+    "food_name": "Pitanga",
+    "nutrition": "Calories: 33, Carbs: 7.6g, Fiber: 2.1g, Vitamin C: 40%"
+  },
+  {
+    "food_name": "Jocote",
+    "nutrition": "Calories: 50, Carbs: 12g, Fiber: 1.2g, Vitamin C: 100%"
+  },
+  {
+    "food_name": "Cactus Pear",
+    "nutrition": "Calories: 41, Carbs: 9.6g, Fiber: 3.7g, Vitamin C: 10%"
+  },
+  {
+    "food_name": "Tamarind",
+    "nutrition": "Calories: 239, Carbs: 62g, Fiber: 5.1g, Vitamin C: 6%"
+  },
+  {
+    "food_name": "Gac",
+    "nutrition": "Calories: 36, Carbs: 5.4g, Fiber: 2.2g, Vitamin C: 130%"
+  },
+  {
+    "food_name": "Snake Fruit",
+    "nutrition": "Calories: 82, Carbs: 22g, Fiber: 2.6g, Vitamin C: 8%"
+  },
+  {
+    "food_name": "Soursop",
+    "nutrition": "Calories: 66, Carbs: 16.8g, Fiber: 3.3g, Vitamin C: 34%"
+  },
+  {
+    "food_name": "Sapodilla",
+    "nutrition": "Calories: 83, Carbs: 20g, Fiber: 5g, Vitamin C: 24%"
+  },
+  {
+    "food_name": "White Sapote",
+    "nutrition": "Calories: 79, Carbs: 19g, Fiber: 3g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Black Sapote",
+    "nutrition": "Calories: 76, Carbs: 18g, Fiber: 2.8g, Vitamin C: 25%"
+  },
+  {
+    "food_name": "Mamey Sapote",
+    "nutrition": "Calories: 124, Carbs: 32g, Fiber: 9g, Vitamin C: 26%"
+  },
+  {
+    "food_name": "Bignay",
+    "nutrition": "Calories: 69, Carbs: 17g, Fiber: 2.8g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Abiu",
+    "nutrition": "Calories: 55, Carbs: 14g, Fiber: 2.4g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Ambarella",
+    "nutrition": "Calories: 41, Carbs: 10g, Fiber: 1.3g, Vitamin C: 100%"
+  },
+  {
+    "food_name": "Canistel",
+    "nutrition": "Calories: 138, Carbs: 36g, Fiber: 5g, Vitamin C: 16%"
+  },
+  {
+    "food_name": "Cupuacu",
+    "nutrition": "Calories: 93, Carbs: 22g, Fiber: 3.6g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Pepino Melon",
+    "nutrition": "Calories: 24, Carbs: 6g, Fiber: 0.8g, Vitamin C: 60%"
+  },
+  {
+    "food_name": "Starfruit",
+    "nutrition": "Calories: 31, Carbs: 7g, Fiber: 2.8g, Vitamin C: 57%"
+  },
+  {
+    "food_name": "Passionfruit",
+    "nutrition": "Calories: 97, Carbs: 23g, Fiber: 10g, Vitamin C: 30%"
+  },
+  {
+    "food_name": "Dragonfruit",
+    "nutrition": "Calories: 60, Carbs: 13g, Fiber: 3g, Vitamin C: 3%"
+  },
+  {
+    "food_name": "Kiwano",
+    "nutrition": "Calories: 44, Carbs: 8g, Fiber: 3.4g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Kumquat",
+    "nutrition": "Calories: 71, Carbs: 16g, Fiber: 6.5g, Vitamin C: 73%"
+  },
+  {
+    "food_name": "Pummelo",
+    "nutrition": "Calories: 38, Carbs: 9g, Fiber: 1g, Vitamin C: 102%"
+  },
+  {
+    "food_name": "Calamansi",
+    "nutrition": "Calories: 37, Carbs: 9g, Fiber: 3.5g, Vitamin C: 123%"
+  },
+  {
+    "food_name": "Ugni",
+    "nutrition": "Calories: 69, Carbs: 17g, Fiber: 2.8g, Vitamin C: 4%"
+  },
+  {
+    "food_name": "Mango",
+    "nutrition": "Calories: 60, Carbs: 15g, Fiber: 1.6g, Vitamin C: 60%"
+  },
+  {
+    "food_name": "Mangosteen",
+    "nutrition": "Calories: 73, Carbs: 18g, Fiber: 1.8g, Vitamin C: 12%"
+  },
+  {
+    "food_name": "Mangaba",
+    "nutrition": "Calories: 44, Carbs: 9.6g, Fiber: 4.6g, Vitamin C: 45%"
+  },
+  {
+    "food_name": "Marang",
+    "nutrition": "Calories: 95, Carbs: 24g, Fiber: 1.5g, Vitamin C: 18%"
+  },
+  {
+    "food_name": "Miracle Fruit",
+    "nutrition": "Calories: 1, Carbs: 0.2g, Fiber: 0.1g, Vitamin C: 0%"
+  },
+  {
+    "food_name": "Nance",
+    "nutrition": "Calories: 50, Carbs: 11g, Fiber: 1g, Vitamin C: 35%"
+  },
+  {
+    "food_name": "Camu Camu",
+    "nutrition": "Calories: 4, Carbs: 0.9g, Fiber: 0.4g, Vitamin C: 600%"
+  },
+  {
+    "food_name": "Maqui",
+    "nutrition": "Calories: 43, Carbs: 9.6g, Fiber: 4.2g, Vitamin C: 5%"
+  },
+  {
+    "food_name": "Myrobalan",
+    "nutrition": "Calories: 45, Carbs: 10g, Fiber: 3.1g, Vitamin C: 15%"
+  }
+]
