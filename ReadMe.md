@@ -2,6 +2,11 @@
 
 This project implements a Food Nutrition Recommendation System using Streamlit, LangChain, Pinecone, and OpenAI embeddings. Users can input a food name to retrieve detailed nutrition information.
 
+## Demo Video Link
+
+    https://www.loom.com/share/f1f1137bca4048eb974cf2d1d7db8f07?sid=39aa0cdc-5708-4e79-bf54-2154eb6836fe
+
+    
 ## Table of Contents
 
 - [Features](#features)

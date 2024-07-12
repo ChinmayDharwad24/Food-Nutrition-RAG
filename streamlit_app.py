@@ -2,7 +2,6 @@ import os
 import json
 import streamlit as st
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Pinecone
 from pinecone import Pinecone as PineconeClient, ServerlessSpec
 from dotenv import load_dotenv
 
@@ -43,7 +42,7 @@ if index.describe_index_stats()['total_vector_count'] == 0:
     # Function to convert food name and nutrition to vector
     def get_vector(food_name, nutrition):
         text = f"Food: {food_name}. Nutrition: {nutrition}"
-        return embeddings.embed_documents([text])[0]
+        return embeddings.embed_query(text)
 
     # Prepare vectors and metadata
     vectors = []
@@ -61,25 +60,10 @@ if index.describe_index_stats()['total_vector_count'] == 0:
     namespace = "food-nutrition-namespace"
     index.upsert(vectors=vectors, namespace=namespace)
 
-# Initialize LangChain components
-vectorstore = Pinecone(index=index, embedding=embeddings, text_key='food_name', namespace="food-nutrition-namespace")
-
-# Create a retriever
-retriever = vectorstore.as_retriever()
-
 # Helper function to format nutrition information
 def format_nutrition(nutrition_str):
     nutrition_items = nutrition_str.split(', ')
     return '\n'.join(nutrition_items)
-
-# Helper function to check relevance of the query
-def check_query_relevance(query):
-    try:
-        docs = retriever.get_relevant_documents(query)
-        return len(docs) > 0
-    except Exception as e:
-        st.error(f"An error occurred in relevance check: {str(e)}")
-    return False
 
 # Streamlit app
 st.title("Food Nutrition Recommendation System")
@@ -89,24 +73,20 @@ st.write("Enter a food name below to get nutrition information.")
 user_input = st.text_input("Food Name")
 
 if user_input:
-    try:
-        # Check relevance of the query
-        if check_query_relevance(user_input):
-            # Retrieve documents based on the food name
-            docs = retriever.get_relevant_documents(user_input)
-            
-            if docs:
-                st.write("Relevant Information:")
-                for doc in docs:
-                    food_name = doc.metadata.get('food_name', 'Unknown food')
-                    nutrition = doc.metadata.get('nutrition', 'No nutrition information found.')
-                    # st.write(f"Food Name: {food_name}")
-                    st.write("Nutrition:")
-                    st.write(format_nutrition(nutrition))
-            else:
-                st.write("Response: I'm sorry, but I couldn't find any nutrition information for that food.")
-        else:
-            st.write("I am sorry, but the system does not contain relevant information for your query.")
-    except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
+    # Query Pinecone
+    query_vector = embeddings.embed_query(user_input)
+    results = index.query(vector=query_vector, top_k=1, include_metadata=True, namespace="food-nutrition-namespace")
+    
+    # Set a similarity threshold
+    similarity_threshold = 0.75
+
+    if results['matches'] and results['matches'][0]['score'] > similarity_threshold:
+        food_info = results['matches'][0]['metadata']
+        food_name = food_info.get('food_name', 'Unknown food')
+        nutrition = food_info.get('nutrition', 'No nutrition information found.')
         
+        st.write(f"Food Name: {food_name}")
+        st.write("Nutrition:")
+        st.write(format_nutrition(nutrition))
+    else:
+        st.write("Food not found in data")
