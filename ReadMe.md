@@ -6,6 +6,8 @@ This project implements a Food Nutrition Recommendation System using Streamlit, 
 
     https://www.loom.com/share/f1f1137bca4048eb974cf2d1d7db8f07?sid=39aa0cdc-5708-4e79-bf54-2154eb6836fe
 
+    https://www.loom.com/share/63fa94b69e2f4a4ebef4b3f08fb74b26?sid=11e4c342-2e67-40b9-9539-36b5a7161d2c
+
 
 ## Table of Contents
 
