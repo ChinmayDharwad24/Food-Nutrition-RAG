@@ -6,7 +6,7 @@ This project implements a Food Nutrition Recommendation System using Streamlit, 
 
     https://www.loom.com/share/f1f1137bca4048eb974cf2d1d7db8f07?sid=39aa0cdc-5708-4e79-bf54-2154eb6836fe
 
-    
+
 ## Table of Contents
 
 - [Features](#features)
@@ -15,6 +15,7 @@ This project implements a Food Nutrition Recommendation System using Streamlit, 
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [API Keys and Environment Variables](#api-keys-and-environment-variables)
+- [Evaluation Metrics](#)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -102,10 +103,44 @@ food-nutrition-recommendation-system/
 ├── data.json           # JSON file containing food and nutrition data
 ├── requirements.txt     # List of dependencies
 └── .env                # Environment variables
+└── evaluation.py       # evaluation report
 ```
 
 ### API Keys and Environment Variables
 To run this application, you need valid API keys for Pinecone and OpenAI. These should be set in the .env file as described above.
+
+### Evaluation Metrics
+This project includes an evaluation module to measure the effectiveness of the recommendation system. The evaluation focuses on four key metrics:
+
+* Context Precision: Measures the accuracy of retrieving the correct nutrition information based on the input food name.
+* Noise Robustness: Assesses the system's ability to handle noisy or altered input queries.
+* Answer Relevance: Evaluates the semantic relevance of the retrieved nutrition information to the input query.
+* Latency: Measures the response time of the system for retrieving nutrition information.
+* Initial Metrics:
+
+```sh
+    Context Precision: 1
+    Noise Robustness: 1
+    Answer Relevance: 0.39
+    Latency: 0.28 seconds
+    
+```
+
+* Improved Metrics:
+After fine-tuning the model and implementing a caching mechanism, the metrics showed significant improvement:
+
+```sh
+    Context Precision: 1
+    Noise Robustness: 1
+    Answer Relevance: 0.39
+    Latency: 0.24 seconds
+```
+
+Improvement Summary
+Context Precision: 0.00% improvement
+Noise Robustness: 0.00% improvement
+Answer Relevance: 0.00% improvement
+Latency: 16.08% reduction
 
 ### Troubleshooting
 No relevant information found: Ensure that the food name you are querying matches exactly with entries in data.json. Check for case sensitivity and whitespace.

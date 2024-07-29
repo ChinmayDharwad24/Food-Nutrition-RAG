@@ -1,0 +1,82 @@
+[
+    {
+        "food_name": "Apple",
+        "nutrition": "Calories: 52, Carbohydrates: 14g, Fiber: 2.4g, Vitamin C: 14%"
+    },
+    {
+        "food_name": "Banana",
+        "nutrition": "Calories: 96, Carbohydrates: 27g, Fiber: 3g, Vitamin B6: 20%"
+    },
+    {
+        "food_name": "Carrot",
+        "nutrition": "Calories: 41, Carbohydrates: 10g, Fiber: 2.8g, Vitamin A: 334%"
+    },
+    {
+        "food_name": "Broccoli",
+        "nutrition": "Calories: 55, Carbohydrates: 11g, Fiber: 3.8g, Vitamin C: 135%"
+    },
+    {
+        "food_name": "Chicken Breast",
+        "nutrition": "Calories: 165, Protein: 31g, Fat: 3.6g, Vitamin B6: 30%"
+    },
+    {
+        "food_name": "Salmon",
+        "nutrition": "Calories: 208, Protein: 20g, Fat: 13g, Vitamin B12: 117%"
+    },
+    {
+        "food_name": "Egg",
+        "nutrition": "Calories: 68, Protein: 6g, Fat: 5g, Vitamin B12: 10%"
+    },
+    {
+        "food_name": "Spinach",
+        "nutrition": "Calories: 23, Carbohydrates: 3.6g, Fiber: 2.2g, Vitamin A: 188%"
+    },
+    {
+        "food_name": "Almonds",
+        "nutrition": "Calories: 576, Protein: 21g, Fat: 49g, Vitamin E: 171%"
+    },
+    {
+        "food_name": "Oatmeal",
+        "nutrition": "Calories: 71, Carbohydrates: 12g, Fiber: 1.7g, Protein: 2.5g"
+    },
+    {
+        "food_name": "Orange",
+        "nutrition": "Calories: 62, Carbohydrates: 15g, Fiber: 3.1g, Vitamin C: 116%"
+    },
+    {
+        "food_name": "Beef",
+        "nutrition": "Calories: 250, Protein: 26g, Fat: 15g, Iron: 15%"
+    },
+    {
+        "food_name": "Quinoa",
+        "nutrition": "Calories: 120, Carbohydrates: 21g, Fiber: 2.8g, Protein: 4.1g"
+    },
+    {
+        "food_name": "Avocado",
+        "nutrition": "Calories: 160, Carbohydrates: 9g, Fiber: 7g, Vitamin K: 26%"
+    },
+    {
+        "food_name": "Greek Yogurt",
+        "nutrition": "Calories: 59, Carbohydrates: 3.6g, Protein: 10g, Calcium: 11%"
+    },
+    {
+        "food_name": "Blueberries",
+        "nutrition": "Calories: 57, Carbohydrates: 14g, Fiber: 2.4g, Vitamin C: 16%"
+    },
+    {
+        "food_name": "Sweet Potato",
+        "nutrition": "Calories: 86, Carbohydrates: 20g, Fiber: 3g, Vitamin A: 284%"
+    },
+    {
+        "food_name": "Lentils",
+        "nutrition": "Calories: 116, Carbohydrates: 20g, Fiber: 7.9g, Protein: 9g"
+    },
+    {
+        "food_name": "Brown Rice",
+        "nutrition": "Calories: 111, Carbohydrates: 23g, Fiber: 1.8g, Protein: 2.6g"
+    },
+    {
+        "food_name": "Walnuts",
+        "nutrition": "Calories: 654, Carbohydrates: 14g, Fiber: 6.7g, Protein: 15g"
+    }
+]
